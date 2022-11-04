@@ -40,7 +40,7 @@ header .logo {
 	margin-right: 50px;
 }
 
-ul {
+.navbar ul {
 	list-style: none;
 	justify-content: space-between;
 }
@@ -71,4 +71,86 @@ form button {
 	background-color: #DEDEDE;
 	border-radius: 5px;
 }
+
+main {
+	width: 70vw;
+}
+
+.features {
+	margin-bottom: 50px;
+}
+
+.youtube {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.plans {
+	justify-content: space-between;
+	margin-right: 0;
+	margin-bottom: 50px;
+	height: 100%;
+}
+
+.plan {
+	border: 1px solid black;
+	text-align: center;
+	width: 32%;
+	height: 100%;
+	padding-bottom: 30px;
+	border-radius: 5px;
+}
+
+.plan-name {
+	background-color: lightgray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px 0;
+}
+
+.plan h3 {
+	margin: 15px 0;
+}
+
+.plan p {
+	line-height: 30px;
+}
+
+.plan button {
+	margin-top: 20px;
+	width: 40%;
+	padding: 5px 20px;
+	font-size: 17px;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	background-color: #DEDEDE;
+	width: 70vw;
+	align-items: flex-end;
+}
+
+footer ul {
+	list-style: none;
+	display: flex;
+	align-items: space-between;
+	justify-content: space-between;
+}
+
+footer li {
+	margin-left: 20px;
+}
+ 
+
+
+
+
+
+
+
+
+
 
