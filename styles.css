@@ -17,6 +17,12 @@
 	align-items: center;
 }
 
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 header {
 	justify-content: space-between;
 	align-items: center;
@@ -30,7 +36,7 @@ header .logo {
 }
 
 .navbar {
-	width: 50%;
+	width: 30%;
 	margin-right: 50px;
 }
 
@@ -46,3 +52,23 @@ a {
 .header2 {
 	padding-top: 100px;
 }
+
+form {
+	flex-direction: column;
+	align-items: center;
+}
+
+form input {
+	padding: 10px 9px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+form button {
+	width: 40%;
+	margin-top: 25px;
+	padding: 10px 0;
+	background-color: #DEDEDE;
+	border-radius: 5px;
+}
+
